@@ -1,4 +1,4 @@
-# seneca-web222
+# seneca-WEB222
 
 This repository contains Assignments for Spring 2018 WEB222 emphasizing topics such as Hpyertext Markup Language (HTML), the Document Object Model (DOM), the Cascading Style Sheet (CSS), JavaScript. 
 
