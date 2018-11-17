@@ -1,0 +1,161 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: __Hwisun, Bae______ Student ID: _128835170___ Date: _July 9, 2018__ 
+* 
+********************************************************************************/
+
+/*
+Step 1
+Styling the main containers 
+– completed sample 2.png
+------------------------------------------------*/
+.main-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+/* 
+Select class "main-container"
+and adjust it's size and margin
+---------------------------*/
+.main-container nav{
+    width: 30%;
+    float: left;
+}
+/*
+Select all <nav> elements that are a child of an element with class “main-container” 
+and adjust it’s size and position 
+---------------------------*/
+.main-container .main{
+    width: 70%;
+    float: right;
+}
+/* 
+Select class main that are a child of an element with class “main-container” 
+and adjust it's size and position
+---------------------------*/
+.main-container header{
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px thick #cccccc;
+    margin-bottom: 30px;
+}
+/* 
+Select all <header> elements that are a child of an element with class “main-container” 
+and set it's padding, border and margin
+---------------------------*/
+.main-container header h1{
+    width: 70%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+/* 
+Select all <h1> elements that are a child of an <header> element which is in a class “main-container” 
+and set it's size,maring and position
+---------------------------*/
+.main-container footer{
+    clear: both;
+    padding-top: 20px; padding-bottom: 20px;
+    padding-left: 10px; padding-right: 10px;
+    background-color: #eeeeee;
+    border-top: 1px thick #cccccc;
+    font-size: 13px;
+}
+/* 
+Select all <footer> elements that are a child of an element with class “main-container” 
+and set it's position, padding, border and font size
+---------------------------*/
+
+/*
+Step 2
+Styling the navigation and logo
+- completed sample 3.png
+------------------------------------------------*/
+#logo {
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* 
+Select an element that has it's name as logo
+and set it's position and font
+---------------------------*/
+#logo img{
+    width: 94px;
+    vertical-align: middle;
+}
+/* 
+Select all <img> elements that are a child of an element with id “logo” 
+and set it's size and position
+---------------------------*/
+nav ul{
+    list-style-type: none;
+}
+/* 
+Select all <ul> elements that are a child of <nav> elements
+and set the style of list
+---------------------------*/
+nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+/* 
+Select all <a> elements that are a child of <ul> elements within <nav> elements
+and set the style and padding
+---------------------------*/
+
+/*
+Step 3 
+Styling the province containers 
+- completed sample 4.png and 4-resize.png
+------------------------------------------------*/
+div.province{
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+/* 
+Select all <div> elements that has an id of "province"
+and set it's size and position
+---------------------------*/
+div.province .description{
+    max-height: 165px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* 
+Select class named "description" within <div> elements that has an id of "province"
+and set it's size and scroll bar
+---------------------------*/
+div.province a{
+    display: block;
+    text-align: center;
+    background: #555555;
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 5px;
+}
+/* 
+Select all <a> elements within <div> elements that has an id of "province"
+and set it's color, padding and text style
+---------------------------*/
+img.flag{
+    width: 100%;
+}
+/* 
+Select all <img> elements that has an id of "flag"
+and set it's size
+---------------------------*/
